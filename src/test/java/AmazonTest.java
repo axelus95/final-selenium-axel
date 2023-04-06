@@ -39,8 +39,8 @@ public class AmazonTest {
             WebElement searchButton = driver.findElement(By.id("nav-search-submit-button"));
             searchButton.click();
 
-            WebElement SearchResultPage = driver.findElement(By.cssSelector(":not AdHolder [data-uuid=\"c8f2870f-e0f7-41a4-b70c-10e5b0f3b07e\"]"));
-            SearchResultPage.click();
+            //WebElement SearchResultPage = driver.findElement(By.cssSelector(":not AdHolder [data-uuid=\"c8f2870f-e0f7-41a4-b70c-10e5b0f3b07e\"]"));
+            //SearchResultPage.click();
 
 
         }
@@ -50,4 +50,3 @@ public class AmazonTest {
 
 
     }
-}
